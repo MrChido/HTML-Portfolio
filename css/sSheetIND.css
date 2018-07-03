@@ -1,0 +1,79 @@
+/*general styles*/
+.mNav{
+  list-style-type: none;
+  display:flex;
+
+  justify-content:flex-end;
+  height:16px;
+  Background:linear-gradient(to right,#702963 0%, #9966cc 10%, #73a9c2 40%, #f0f8ff 100%);
+}
+.mNav li{
+  padding-left: 10px;
+}
+.home{
+  order:-3;
+}
+
+.jt{
+  display:flex;
+   flex-grow: 2;
+   margin:-.25px
+ }
+
+ h2{
+   margin-bottom:1.65px;
+ }
+/*projects styles*/
+.ember{
+width:75px;
+float:right;
+}
+.Dload{
+  width:20px;
+}
+.Lintro{
+  margin-bottom:.1px;
+}
+.linkx{
+  margin-top:-.1px;
+}
+.sublist{
+  list-style-type:none;
+}
+/*index styles*/
+
+.Minfo{
+  order:-1;
+}
+.WH{
+  order:2;
+}
+.mum{
+box-shadow: 5px 5px 10px #9966cc;
+width:125px;
+border-radius:50% 15%;
+ }
+
+/*mobile styles*/
+@media(max-width:400px){
+/*m400pxGeneral*/
+.mNav{
+  height:20px;
+}
+
+.mNav li{
+  padding-left: 10px;
+  height: 1rem;
+  font-size: 1.20rem;
+}
+.sublist{
+  list-style-type: none;
+}
+
+/*m400pxccresume styles*/
+.jt{
+  display:flex;
+  justify-content:center;height: 3rem;
+  font-size: 2rem;
+}
+}
