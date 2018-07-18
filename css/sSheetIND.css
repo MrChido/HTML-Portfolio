@@ -1,4 +1,13 @@
 /*general styles*/
+
+body{
+    Background-image: url("../imgs/nebulaField.jpg");
+    
+}
+h1,h2,h3,h4,h5,p,div{
+    color:azure;
+}
+p{color:azure;}
 .mNav{
   list-style-type: none;
   display:flex;
@@ -9,6 +18,7 @@
 }
 .mNav li{
   padding-left: 10px;
+color:azure;
 }
 .home{
   order:-3;
@@ -19,7 +29,7 @@
    flex-grow: 2;
    margin:-.25px
  }
-
+li{color:azure;}
  h2{
    margin-bottom:1.65px;
  }
@@ -39,6 +49,7 @@ float:right;
 }
 .sublist{
   list-style-type:none;
+    color:azure;
 }
 /*index styles*/
 

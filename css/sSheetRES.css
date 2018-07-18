@@ -1,4 +1,11 @@
 /*general styles*/
+body{
+    background-image: url('../imgs/nebulaField.jpg');
+    
+}
+h1,h2,h3,li,p,div{
+    color:azure;
+}
 .mNav{
   list-style-type: none;
   display:flex;
