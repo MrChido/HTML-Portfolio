@@ -11,7 +11,8 @@ p{color:azure;}
 .mNav{
   list-style-type: none;
   display:flex;
-
+mix-blend-mode:screen;
+    
   justify-content:flex-end;
   height:16px;
   Background:linear-gradient(to right,#702963 0%, #9966cc 10%, #73a9c2 40%, #f0f8ff 100%);
