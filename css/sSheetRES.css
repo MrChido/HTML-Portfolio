@@ -1,7 +1,7 @@
 /*general styles*/
 body{
-    background-image: url('../imgs/nebulaField.jpg');
-    
+    background: no-repeat url('../imgs/nebulaField.jpg');
+    background-size: cover;
 }
 h1,h2,h3,li,p,div{
     color:azure;
