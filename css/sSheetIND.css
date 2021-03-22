@@ -32,6 +32,9 @@ color:azure;
   order:-3;
 }
 
+.pRev{
+  color:purple;
+}
 .jt{
   display:flex;
    flex-grow: 2;
